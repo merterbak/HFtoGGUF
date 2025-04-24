@@ -21,7 +21,7 @@ Modify the following variables in the notebook for your own needs:
 - local_dir: Directory to store models (default: ./model).
 
 ### Cuda 
-To enable GPU acceleration for inference in Google Colab:
+To enable GPU acceleration for model inference in Google Colab:
 
 1. Make sure your Colab runtime is set to **GPU**:  
    Go to `Runtime > Change runtime type > Hardware accelerator > GPU`.
