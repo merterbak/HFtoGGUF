@@ -1,5 +1,7 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/merterbak/HFtoGGUF/blob/main/HFtoGGUF.ipynb)
 # HFtoGGUF
-Convert Hugging Face models to GGUF with xet support.
+
+This project demonstrates how to download a model from Hugging Face, convert it to GGUF format, quantize it to various levels, upload quantized models back to Hugging Face and perform inference with the quantized model using a ipynb/Colab notebook.
 
 ## Features
 - Clones and builds `llama.cpp` using CMake in Colab.
