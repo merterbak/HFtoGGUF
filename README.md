@@ -17,7 +17,8 @@ Modify the following variables in the notebook for your own needs:
 - quant_levels: List of quantization levels (e.g., ["Q3_K_S"]).
 - new_repo_name: The Hugging Face repository for uploading quantized models (e.g., your-username/Llama-3.2-3B-Instruct-GGUF).
 - local_dir: Directory to store models (default: ./model).
-  
+
+### Cuda 
 To enable GPU acceleration for inference in Google Colab:
 
 1. Make sure your Colab runtime is set to **GPU**:  
@@ -29,6 +30,7 @@ To enable GPU acceleration for inference in Google Colab:
 !cmake -B build -DGGML_CUDA=ON
 !cmake --build build --config Release
 ```
+### Xet
 If you have xet early access download xet version of it. If your Python environment has a hf_xet-aware version of huggingface_hub then your uploads and downloads will automatically use Xet.
 ```bash
 !pip install -U huggingface_hub[hf_xet]
